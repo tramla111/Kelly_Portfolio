@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #ffffff;
+  }
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 135px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #fcfcfc;
+  }
+  .navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+  .navbar li:hover,
+  a:hover {
+    background-color: #ffffff;
+  }
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #ffffff;
+  }
+  .navbar li ul li a {
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px;
+  }
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+
+h1.intro{
+  color: black;
+	font-size: 40px;
+  font-family: Helvetica;
+  font-weight: 680;
+}
+
+h2.intro2{
+  color: rgb(10, 0, 0);
+	font-size: 40px;
+  text-shadow: -1px 1px 1.5px #000,
+  1px 1px 2px #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+  font-family: Helvetica;
+}
+
+p.description{
+  color: black;
+  font-size: 12.5pt;
+  font-family: Helvetica;
+}
+
+.nameH1{color:black;}
+
+.nameH1:hover{
+  background-color: rgb(248, 244, 194)
+}
+.nameH2,.nameH3, .nameH4, .nameH4, .nameH4, .nameH5{color:rgb(255, 255, 255);}
+
+.nameH2:hover{
+  background-color: rgb(194, 248, 215)
+}
+.nameH3:hover{
+  background-color: pink;
+}
+
+.nameH4:hover{
+  background-color: rgb(144, 198, 255);
+}
+
+.nameH5:hover{
+  background-color: rgb(253, 194, 146);
+}
