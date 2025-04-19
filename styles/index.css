@@ -739,9 +739,14 @@ div.ProjectTitle{
     margin-top: 200px;
 }
 
-/* img{
-    width: 100%;
-    height: 350px;} */
+/* .child_proj2{
+width: 200px;
+} */
+
+img.card{
+    height: 300px;
+    width: 150%;
+}
 
 .parent_proj1{display: block;}
 .flex-parent-element{display: block;}
