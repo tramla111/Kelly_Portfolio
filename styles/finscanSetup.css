@@ -548,6 +548,9 @@ div.navbar {
 
 @media screen and (max-width: 450px) {
 
+    div.navbar{
+        margin: 0;
+    }
     h1.maintitle {
         margin-left: 20px;
     }
@@ -642,5 +645,8 @@ p.describe3 {
 .flex-parent-element2 {
   
     margin-top: 0px;
+}
+div.navbar{
+    margin: 0;
 }
 }

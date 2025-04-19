@@ -324,4 +324,7 @@ p.describe3 {
   
     margin-top: 200px;
 }
+div.navbar{
+    margin: 0;
+}
 }
