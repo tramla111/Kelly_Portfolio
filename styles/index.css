@@ -765,5 +765,7 @@ img.card{
     padding-bottom: 30px;
     display: block;
   }
-
+  div.navbar{
+    margin: 0;
+}
 }

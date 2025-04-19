@@ -630,6 +630,9 @@ p.text4{
 }
 
 @media screen and (max-width: 450px) {
+    div.navbar{
+        margin: 0;
+    }
     h2.subheading {
         font-size: 45px;
         line-height: 1.1;
@@ -754,5 +757,7 @@ margin: 18px;
   
     margin-top: 0px;
 }
-
+div.navbar{
+    margin: 0;
+}
 }
