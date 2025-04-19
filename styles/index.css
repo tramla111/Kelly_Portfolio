@@ -492,7 +492,7 @@ p.text4{
     overflow: hidden;
     margin-top: 20px;
     margin-right: 20px;
-
+    background-color: white;
 
   }
 
@@ -515,6 +515,7 @@ p.text4{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    background-color: white;
   }
 
   .dropdown-content a {
@@ -528,6 +529,7 @@ p.text4{
 
   .dropdown-content a:hover {
     font-weight: 700;
+    background-color: gainsboro;
   }
 
   .dropdown:hover .dropdown-content {
